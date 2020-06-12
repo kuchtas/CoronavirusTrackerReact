@@ -1,0 +1,26 @@
+.summary{
+    width: 20%;
+
+    .infoHeader{
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+
+    .sticky{
+        position: sticky;
+        top: 5em;
+        padding-top: 2em;
+
+        .infoNumber{
+            padding: 0.2em;
+
+            .globalNumber{
+                font-size: 2em;
+                color: red;
+                font-weight: bold;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

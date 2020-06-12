@@ -1,0 +1,12 @@
+.countryTileHeader{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1em;
+    position: sticky;
+    top: 0em;
+    background-color: thistle;
+    .tile{
+        width: 100%;
+        padding: 0.5em;
+    }
+}
